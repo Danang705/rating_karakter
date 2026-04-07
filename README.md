@@ -1,16 +1,14 @@
-# rating_karakter
+🌟 Rating Karakter Anime - Flutter App
 
-A new Flutter project.
+Aplikasi sederhana berbasis Flutter untuk menampilkan daftar karakter anime favorit beserta sistem rating bintang yang interaktif. Proyek ini dibuat sebagai purwarupa (prototype) untuk mempelajari dasar-dasar desain antarmuka (UI/UX) di Flutter dan penggunaan *State Management* dasar.
 
-## Getting Started
+✨ Fitur Utama
 
-This project is a starting point for a Flutter application.
+- Daftar Dinamis (Scrollable List): Menampilkan banyak data karakter tanpa membebani memori perangkat menggunakan `ListView.builder`.
+- Gambar Lokal (Local Assets): Menampilkan foto karakter yang diambil langsung dari penyimpanan lokal aplikasi (bukan dari internet).
+- Rating Interaktif: Pengguna dapat memberikan rating 1 hingga 5 bintang dengan mengklik ikon bintang. Tampilan akan langsung diperbarui menggunakan `setState`.
+- Reusable Component: Desain kartu karakter dipisah ke dalam *class* `CharacterCard` khusus agar kode lebih rapi dan mudah digunakan ulang.
 
-A few resources to get you started if this is your first Flutter project:
+Tampilan Aplikasi
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot Aplikasi Rating Anime](assets/images/ss1.png)
